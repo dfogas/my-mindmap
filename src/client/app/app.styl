@@ -1,0 +1,108 @@
+// Remember to use rems and ems. http//css-tricks.com/rems-ems.
+
+@import '../../../node_modules/normalize.css/normalize.css'
+
+// http//phonegap-tips.com/articles/essential-phonegap-css-webkit-tap-highlight-color.html
+*
+  -webkit-tap-highlight-color rgba(0,0,0,0)
+
+// Goodness.
+*, after, before
+  box-sizing border-box
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+
+html,
+body
+  height 100%
+  background-image url('../../../assets/img/aqua-leaves.jpg')
+  font-family 'Segoe UI', 'Lucida Grande','Ubuntu','sans-serif'
+  font-size 16px
+  line-height 1.5
+
+input
+  -webkit-appearance textfield
+  padding 1px
+  background-color white
+  border 2px inset
+  cursor auto
+  -webkit-rtl-ordering logical
+  -webkit-user-select text
+  margin 0em
+  text-rendering auto
+  color initial
+  letter-spacing normal
+  word-spacing normal
+  text-transform none
+
+input[type="hidden" i]
+  display none
+
+div
+  display inline-block
+
+#app
+  margin 1em 2em
+
+  header
+    width 1640px
+    height 50px
+
+    span.app-name
+      font-size 2em
+      margin-right 100px
+
+    ul
+      display inline-block
+      margin 0
+      padding 0
+    ul
+      li
+        display inline-block
+        font-size 1em
+
+  > footer
+    font-size .75em
+    font-style italic
+
+  focus
+    outline-style none
+
+  a
+    text-decoration none
+
+    &hovernot(.active)
+      text-decoration underline
+
+    &.active
+      font-weight bold
+
+  button
+    border none
+    border-radius 1em
+    color #fff
+    font-weight bold
+    line-height 1.8
+    margin 0 10px 0 0
+    padding 0 1em
+    text-shadow -1px 1px #417cb8
+
+    &[disabled]
+      opacity .5
+
+    &hovernot(&[disabled])
+      background-color #346392
+      text-shadow -1px 1px #27496d
+
+    &active
+      background-color #27496d
+      text-shadow -1px 1px #193047
+
+  button
+  input
+  textarea
+    &disabled
+      opacity .5
+
+  li
+    max-width 42em
