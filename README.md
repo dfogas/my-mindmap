@@ -14,8 +14,11 @@ that's what I tried to accomplish here.
 
 for download
 > git clone https://github.com/dfogas/my-mindmap <directory_name>
+
 > npm install
+
 > gulp
+
 > and navigate to localhost:8000
 
 Licence MIT 2015
