@@ -59,6 +59,9 @@ export default {
          suppressing the more complex details below the current level.</p>`,
       agent: `<p>Aka doer, atomic unit of computation introducing change
         of its state and that of the system if being part of it.</p>`,
+      agile_software_development: `<p>Way of developing software by applying small changes and
+        comparing their effects on the desired state of programmed item.</p><p>
+        It is compared to function of PID controller by Uncle Bob Martin in his speech.</p>`,
       algebra: `<p>Study of mathematical symbols and the rules for manipulating
         these symbols; a unifying thread of almost all of mathematics.</p>`,
       algorithm: `<p>Self-contained step-by-step set of operations to be performed.
@@ -67,7 +70,7 @@ export default {
       analog_signal: `<p>tbd</p>`,
       analysis: `<p>Process of breaking a complex topic or substance into smaller
         parts in order to gain a better understanding of it.</p>`,
-      anchor: `<p>Way to realize hyperlink within document.</p>`,
+      anchor: `<p>Way to realize hyperlink within html document.</p>`,
       animal: `<p>Multicellular, eukaryotic organisms</p>.`,
       animation: `<p>process of making the illusion of motion and change by means of
         the rapid display of a sequence of static images that minimally differ from each other.</p>`,
@@ -81,7 +84,9 @@ export default {
        and tools for building software applications.</p>`,
       application: `<p><ol>
         <li>Computer software designed to help the user to perform specific tasks.</li>
-        <li>in other words cases when something is used to achieve some goal - use-case</li></p>`,
+        <li>in other words cases when something is used to achieve some goal - use-case</li></p>
+        <p>Grain and salt for which the users of computer use their computers and computer networks.</p>`,
+      application_layer: `<p>Top layer of the network model.</p>`,
       application_software: `<p>Computer program designed to perform a group of
         coordinated functions, tasks, or activities for the benefit of the user</p>
         <p>Examples include a word processor, a spreadsheet,
@@ -122,11 +127,11 @@ export default {
         without manual intervention</p>`,
       beauty: `<p>We live to discover beauty.</p><p>Beauty is subjective quality,
         it's always in the eye of beholder.</p>`,
-      belief: `<p> state of mind in which a person thinks something to be the case,
+      belief: `<p> State of mind in which a person thinks something to be the case,
         with or without there being empirical evidence to prove that something is
         the case with factual certainty.</p>`,
       binary_relation: `<p>Expresses relation of elements of set A, to elements of set B.</p>`,
-      biology: `<p>natural science concerned with the study of life and living organisms,
+      biology: `<p>Natural science concerned with the study of life and living organisms,
         including their structure, function, growth, evolution, distribution, and taxonomy.</p>`,
       bit: `<p>Describing of one of two states e.g. zero, one in binary or on, off in control theory switch.</p>`,
       bitcoin: `<p>Open-source p2p payment network and also cryptocurrency used in this network.</p>`,
@@ -146,6 +151,7 @@ export default {
       character: `<p>Unit of information corresponding to graphic symbol.</p>`,
       character_set: `<p>Encoding used to represent a repertoire of
         characters by some kind of an encoding system.</p>`,
+      chinese_room: `<p>tbd</p>`,
       chomsky_hierarchy: `<p>Containment hierarchy of formal grammars.</p>`,
       circuit: `<p>Basic building block of computers and specialized electronics.</p><p>
         It implements knowledge gained from study of electricity and differs greatly in
@@ -224,6 +230,8 @@ export default {
       constant: `<p>Non-varying value</p>`,
       constructed_language: `<p>Language whose phonology, grammar, and vocabulary have been consciously
         devised for human or human-like communication, instead of having developed naturally.</p>`,
+      content_management_system: `<p>Software tool used to add, modify or remove content of (usually) web pages,
+        so that it stays relevant and attractive for those who view it.</p>`,
       context: `<p><li>Specifically refers to the text or speech surrounding an expression
         (word, sentence, or speech act) influences the way an expression is understood
         in this way it is similar to state.</li>
@@ -251,11 +259,12 @@ export default {
       cryptographic_protocol: `<p>Abstract or concrete protocol that performs
         a security-related function.</p><p>A protocol describes, how algorithms
         should be used.</p>`,
-      culture: `<p>that complex whole which includes knowledge, belief, art,
+      culture: `<p>That complex whole which includes knowledge, belief, art,
         morals, law, custom and any other capabilities and habits acquired by
         man as a member of society. (from Wikipedia)</p>`,
-      cypher: `<p>an algorithm for performing encryption or decryption—a series
-        of well-defined steps that can be followed as a procedure.</p>`,
+      cypher: `<p>An algorithm for performing encryption or decryption—a series
+        of well-defined steps that can be followed as a procedure and also a product
+        of such algorithm.</p>`,
       CGI: `<p>The application of computer graphics to create or contribute to images
         in art, printed media, video games, films, television programs, commercials,
         videos, and simulators.</p><p>Most commonly used for 3D computer graphics.</p>`,
@@ -264,7 +273,7 @@ export default {
         <p>As a general concept refers to the fact that some existing information
         or knowledge is represented or coded in some form suitable for better usage
         or processing.</p>`,
-      database: `<p>centralized data store - loaded term</p>`,
+      database: `<p>Centralized data store - loaded term.</p>`,
       data_definition: `<p>First step of program design process.</p>`,
       data_integrity: `<p>Way of verifying the completeness, expected structure and
         immutability of data, e.g. after network transfer.</p>`,
@@ -277,7 +286,7 @@ export default {
       data_type: `<p>Classification identifying one of various types of data,
         such as real, integer or Boolean, that determines the possible values for that type;
         the operations that can be done on values of that type;
-        the meaning of the data; and the way values of that type can be stored (from Wiki)</p>`,
+        the meaning of the data; and the way values of that type can be stored. (from Wiki)</p>`,
       decentralization: `<p>Individual nodes within system function autonomously. There is
         still relation to other nodes of system but only through strictly reduced communication
         channels. More reduced these channels are the more decentralized the system.</p>`,
@@ -290,14 +299,21 @@ export default {
         <p>Examples - computer is a device.</p>`,
       digital_currency: `<p>tbd</p>`,
       digital_recording: `<p>tbd</p>`,
+      dining_philosophers: `<p>Originally designed by Edsger Dijkstra as an exam question. It is an
+        intuition pump for concurrency in computing - later developed.</p><p>Its main purpose is
+        to solve problem with the condition of avoiding the deadlock, problem inherent to concurrent computing systems.</p>`,
       distributed_application: `<p>Applicaton that consists of more systems that
         exchange data with each other.</p><p>xamples of distributed systems vary
         from SOA-based systems to massively multiplayer online games to peer-to-peer applications</p>`,
       distributed_system: `<p>a software system in which components located on networked computers
         communicate and coordinate their actions by passing messages.</p><p><ol>Three significant characteristics
         <li>concurrency of components</li><li>lack of global clock</li><li>tolerates failures in individual computers</li></ol>`,
-      document: `<p>Name for top level component of DOM.</p>`,
-      dynamic_type_checking: `<p>tbd</p>`,
+      document: `<p>1. Name for top level component of DOM.</p><p>2. Generally, information storer, usually in form of text and images or
+        only text.</p>`,
+      dynamic_type_checking: `<p>the process of verifying the type safety of a program at runtime.
+        Implementations of dynamically type-checked languages generally associate each runtime object with a "type tag"
+        (i.e., a reference to a type) containing its type information. This runtime type information (RTTI) can also
+        be used to implement dynamic dispatch, late binding, downcasting, reflection, and similar features.</p>`,
       DOM: `<p>Cross-platform and language-independent convention for representing
         and interacting with objects in HTML, XHTML, and XML documents.</p><p>
         Javascript programming language is used for DOM manipulation.</p>`,
@@ -345,6 +361,8 @@ export default {
         the illusion of moving images.</p>`,
       filmmaking: `<p>Both, an art and an industry. Originally recorded on the plastic film,
         now, because of CGI-based special effects, fully digital.</p>`,
+      filter: `<p>Mechanism, that by applying some restrictive rule(s) to a stream, decides what goes
+        through.</p>`,
       firstclass_function: `<p>in programming, 1stclass func means that function can
         be freely exchanged for its value, when we think about the program flow</p>`,
       form: `<p><ol><li>shape, visual appearance, constitution or configuration
@@ -387,26 +405,31 @@ export default {
         in which the items are represented as being "above," "below," or "at the same
         level as" one another.</p>`,
       html: `<p>Standard markup language used to create web pages. Web browsers
-        can read  HTML files and render them into visible or audible web pages.
+        can read HTML files and render them into visible or audible web pages.
         HTML describes the structure of a website semantically along with cues
-        for presentation, making it a markup language, rather than a programming language
+        for presentation, making it a markup language, rather than a programming language.
         </p><p>"little document system that is way overused" -Doug Crockford-</p>`,
-      http: `<p>an application protocol for distributed, collaborative, hypermedia
-        information systems; it is the foundation of data communication for the World Wide Web</p>`,
+      http: `<p>An application protocol for distributed, collaborative, hypermedia
+        information systems; it is the foundation of data communication for the World Wide Web.</p>`,
       http_request: `<p>tbd</p>`,
       http_response: `<p>tbd</p>`,
       human: `<p>Only extant members of the hominin clade (or human clade),
         a branch of the great apes; they are characterized by erect posture and
         bipedal locomotion, manual dexterity and increased tool use, and a general
         trend toward larger, more complex brains and societies.</p>`,
-      hyperlink: `<p>Usually defined as process leading and including definition
-        of computing problem to running an executable program.</p>`,
+      hyperlink: `<p>A reference to data that the reader can directly follow either by clicking or by hovering.
+        It points to a whole document or to a specific element within a document. Hypertext is text with hyperlinks.</p>`,
       icon: `<p>a pictogram displayed on a computer screen in order to help
         the user navigate a computer system or mobile device</p>`,
       idea: `<p>Construed as mental representational images of some object. Can also
         be abstract concepts that do not present as mental images.</p>`,
       identification: `<p>act or process of verifying the identity of subject</p><p>
         recently, act of identifying itself with some group of persons</p>`,
+      information_technology: `<p>Application of computers and telecommunications equipment
+        to store, retrieve, transmit and manipulate data, often in the context of
+        a business or other enterprise.</p><p>The term is commonly used as a synonym for
+        computers and computer networks, but it also encompasses other information
+        distribution technologies such as television and telephones.</p>`,
       illusion: `<p>tbd</p>`,
       illustration: `<p>Depiction of a subject, using graphical representation.</p>`,
       image: `<p>Graphical representation of some object state. Also a form of data encoding.</p>`,
@@ -444,6 +467,8 @@ export default {
       interpreter: `<p>Software that translates programming language code to
         machine code as the program is being and is run. This feature makes it
         contrary to compiler.</p>`,
+      intuition_pump: `<p>A thought experiment structured to allow the thinker to use
+        their intuition to develop an answer to a problem.</p>`,
       io_operation: `<p>Concept of input and output is omnipresent in computer science.
         It can be compared to blackbox or it can be said that between input and
         output operates just some function.</p>`,
@@ -463,13 +488,16 @@ export default {
         it stems from observers mindmap and way he processes that information</p>`,
       language: `<p>Ability to acquire and use complex systems of
         communication, particularly, the human ability to do so</p>`,
-      learning: `<p>A process of encoding information to brain's memory for later use.</p>`,
+      learning: `<p>A process of encoding information to brain's memory for later use.</p>
+        <p>It can be viewed as receiving and processing a program, that will determine
+        our action in the future. Teaching under this view becomes analogous to programming.</p>`,
       life: `<p>Life complex of properties or qualities, such as autonomous
        moving system, energy intake and transformation, and reproduction.</p>`,
-      logic: `<p>branch of philosophy concerned with the use and study of valid reasoning</p>`,
+      linker: `<p>tbd</p>`,
+      logic: `<p>Branch of philosophy concerned with the use and study of valid reasoning.</p>`,
       linguistics: `<p>Scientific study of language. There are three aspects to this study:
-        language form, language meaning, and language in context</p>`,
-      linked_list: `<p> a data structure consisting of a group of nodes which together
+        language form, language meaning, and language in context.</p>`,
+      linked_list: `<p> A data structure consisting of a group of nodes which together
         represent a sequence. Under the simplest form, each node is composed of data and
         a reference (in other words, a link) to the next node in the sequence;
         more complex variants add additional links. This structure allows for efficient
@@ -477,10 +505,11 @@ export default {
       linux: `<p>a Unix-like and mostly POSIX-compliant computer operating system (OS)
         assembled under the model of free and open-source software development and distribution</p>`,
       machine_code: `<p>set of instructions executed directly by computer's CPU</p>`,
-      making_examples: `<p>substantial part of program design process, from examples
-        of how program should work, tests verifying program function are developed</p>`,
-      markdown: `<p>simple markdown format for writing readme files used by github and
-        also elsewhere</p>`,
+      making_examples: `<p>Substantial part of program design process, from examples
+        of how program should work, tests verifying program function are developed.</p><p>
+        Also a complement, in utility sense, to generalization.</p>`,
+      markdown: `<p>Simple markdown format for writing readme files used by github and
+        also elsewhere.</p>`,
       mathematics: `<p>Love of knowledge, studies quantity, shape, structure and
         change</p>
         <ul>Branches of mathematics
@@ -489,10 +518,10 @@ export default {
           <li>Algebra - dealing w/ structure</li>
           <li>Calculus - youngest, dealing w/ change</li>
         </ul>`,
-      matrix: `<p>a rectangular array of numbers, symbols, or expressions,
+      matrix: `<p>A rectangular array of numbers, symbols, or expressions,
         arranged in rows and columns — that is interpreted and manipulated
         in certain prescribed ways.</p>`,
-      matter: `<p>matter does not have a universal definition, nor is it a
+      matter: `<p>Matter does not have a universal definition, nor is it a
         fundamental concept in physics today. Matter is also used loosely as
         a general term for the substance that makes up all observable physical objects.</p>`,
       md5: `<p>Message-digest algorithm is a widely used cryptographic hash function
@@ -527,6 +556,10 @@ export default {
         computer network for general network description.</p>
         <p>Definition overlaps with that
         of a system also links to that of a structure</p>`,
+      network_application: `<p>Application enabled by network - e. g. remote access,
+        discussion groups, email etc.</p>`,
+      network_model: `<p>Abstraction, tool for thinking about or conceptual model of
+        computer network.</p>`,
       notation: `<p>In linguistics and semiotics, a system of graphics or symbols,
         characters and abbreviated expressions, used in artistic and scientific
         disciplines to represent technical facts and quantities by convention.</p>`,
@@ -548,7 +581,7 @@ export default {
       object_code: `<p>Whatever compiler produces as its output, directly executed by cpu i.s.</p>`,
       object_oriented_programming: `<p>Objects are encapsulated chunks of code that communicate
         with other objects through interfaces (through methods that they have and expose).</p>`,
-      observer: `<p>Any system which receives information from an object and interprets it</p>`,
+      observer: `<p>Any system which receives information (from an object) and interprets it.</p>`,
       open_loop_control_system: `<p>Type of control system, that generates output based only
         on input fed to it.</p>`,
       open_source: `<p>Source code is shared among developers that contribute to it.</p>`,
@@ -603,11 +636,13 @@ export default {
         <p>It contains the program code and its current activity.</p>
         <p>Depending on the operating system (OS), a process may be made up
         of multiple threads of execution that execute instructions concurrently.</p>`,
-      process_automation: `<p>tbd</p>`,
+      process_automation: `<p>Strategy a business uses to automate processes in order to contain costs.</p>`,
       program_design: `<p>Contrast to fiddling with stuff till it works. Consists of
         data definitions, stating function's purpose, signature and picking name,
         developing examples, writing tests for these examples, writing function body template,
         writing the body of the function and finally testing that it works as intended.</p>`,
+      programmer: `<p>Device for turning coffee into code.</p><p>On the side note here - teaching
+        is form of programming, learning is running the code.</p>`,
       programming: `<p>Usually defined as process leading and including definition of
         computing problem to running an executable program.</p>`,
       programming_language: `<p>Formal constructed language designed to communicate
@@ -639,6 +674,8 @@ export default {
       reason: `<p>Capacity for consciously making sense of things,
         applying logic, establishing and verifying facts,
         and changing or justifying practices.</p>`,
+      remote_access: `<p>Connection to a data-processing system from a remote location,
+        for example through a virtual private network.</p>`,
       recording: `<p>There are two ways of recording sound or images.<ol><li>
         digital recording - information is recorded as digits</li><li>analog recording
         - information is recorded as relationships in physical medium</li></p>`,
@@ -669,7 +706,8 @@ export default {
         indication, designation, likeness, analogy, metaphor, symbolism, signification,
         and communication.</p>`,
       sequence: `<p>Ordered collection of objects in which repetitions are allowed.</p>`,
-      server: `<p>tbd</p>`,
+      server: `<p>Computer program or machine that waits for requests from other machines
+        or programs and responds to them. Typically, it processes data.</p>`,
       set: `<p>Collection of distinct objects, unordered, considered as an object in its own.</p>
         <p>Language of set theory is used through all mathematics.</p>`,
       set_theory: `<p>As any formal system, a try of humans to organize reality.</p>`,
@@ -678,6 +716,9 @@ export default {
         or material composition.</p><p>Psychologists have theorized that humans
         mentally break down images into simple geometric shapes called geons.
         Examples of geons include cones and spheres.</p>`,
+      ship_of_theseus: `<p>Thought experiment in which question is
+        whether an object that has had all of its components replaced remains
+        fundamentally the same object.</p>`,
       sign: `<p>Something that can be interpreted as having a meaning,
         which is something other than itself, and which is therefore able to communicate
         information to the one interpreting or decoding the sign.</p>`,
@@ -689,18 +730,19 @@ export default {
       social_network: `<p>Group of people involved in persistent social interaction,
         or a large social grouping sharing the same geographical or social territory,
         typically subject to the same political authority and dominant cultural
-        expectations</p>`,
+        expectations.</p>`,
       social_structure: `<p>Set of social actors(such as individuals or organizations)</p>`,
       society: `<p>Group of people involved in persistent social interaction</p>
-        <p>a large social grouping sharing the same geographical or social territory,
+        <p>A large social grouping sharing the same geographical or social territory,
         typically subject to the same political authority and dominant cultural
         expectations.</p>`,
+      socket: `<p>API between application layer and transportation_layer.</p>`,
       software: `<p>Computer program that directs a computer's processor to perform
         specific operations.</p>`,
-      software_architecture: `<p>the structure of software, particularly how software is
-        segmented - as one whole - monolith or as many decoupled and highly cohesive modules</p>`,
-      software_development: `<p>the process of software creation - one way to do it is
-        agile software development</p>`,
+      software_architecture: `<p>The structure of software, particularly how software is
+        segmented - as one whole - monolith or as many decoupled and highly cohesive modules.</p>`,
+      software_development: `<p>The process of software creation - one way to do it is
+        agile software development.</p>`,
       software_framework: `<p>A software framework is a universal, reusable software
         environment that provides particular functionality as part of a larger software
         platform to facilitate development of software applications, products and solutions.</p>`,
@@ -708,19 +750,22 @@ export default {
         to develop software programs and applications.</p><p>It is designed to assist
         both the programmer and the programming language compiler in building
         and executing software.</p>`,
-      software_platform: `<p>whatever preexisting piece of computer software
+      software_platform: `<p>Whatever preexisting piece of computer software
         or code object is designed to run within, obeying its constraints and making
         use of its facilities.</p>`,
       space: `<p>tbd</p>`,
-      standard: `<p>written description of technical specifications about the
-        way something should be done</p>`,
+      standard: `<p>Written description of technical specifications about the
+        way something should be done.</p>`,
       state: `<p>Technical term for all the stored information,
         at a given instant in time, to which the digital logic circuit or
         computer program has access</p><p>More generally - situation.</p>`,
-      static_type_checking: `<p>tbd</p>`,
+      static_type_checking: `<p>process of verifying the type safety of a program
+        based on analysis of a program's text (source code). If a program passes a static type-checker,
+        then the program is guaranteed to satisfy some set of type-safety properties for all possible inputs.</p>`,
       stream: `<p>A sequence of data elements made available over time.
         It can be thought of as items on a conveyor belt being processed
         one at a time rather than in large batches.</p>`,
+      strong_AI: `<p>tbd</p>`,
       structure: `<p>Fundamental, tangible or intangible notion
         referring to the recognition, observation, nature, and permanence of
         patterns and relationships of entities.</p>
@@ -743,6 +788,8 @@ export default {
       system_programming: `<p>tbd</p>`,
       switch: `<p>By having a on/off cabability (state) it enables/disables some
         interaction.</p>`,
+      SOA: `<p>Service oriented architecture - the center of attention is service, which
+        is basically function that operates on data, separately from business logic.</p>`,
       SSL: `<p>Protocol for remotely accessing a computer.</p><p>Despite
         being widely used, and critical to data security there are still
         vulnerabilities found, that can be exploited.</p>`,
@@ -752,6 +799,8 @@ export default {
       telecommunications: `<p>Sum of ways to communicate over long distances.</p>
         <p>From early smoke and flag signals to yesterday's radio, today's GSM's and
         satellites. Who knows what will bring the future?</p>`,
+      telephone: `<p>Telecommunications device that permits two or more users to
+        conduct a conversation when they are too far apart to be heard directly.</p>`,
       television: `<p>Telecommunication medium used for transmitting sound with
         moving images. It is a mass-medium, for entertainment, education, news and advertising.</p>`,
       television_program: `<p>Segment of content intended for broadcast on television,
@@ -781,6 +830,7 @@ export default {
       transistor: `<p>A semiconductor device used to amplify or switch electronic
         signals and electrical power.</p>`,
       transitivity: `<p>Mathematical relation, if a ≤ b and b ≤ c, then a ≤ c</p>`,
+      transportation_layer: `<p>Network layer under application layer.</p>`,
       tuple: `<p>a finite ordered list of to n elements, where n is non-negative integer</p>`,
       turing_machine: `<p>Computer science tool for thinking, but testable in practice.</p>
         <p>All of computers are turing machines.</p>`,
@@ -821,13 +871,18 @@ export default {
         known or unknown quantity of information referred to as a value.</p>`,
       web_browser: `<p>Software application for retrieving, presenting,
         and traversing information resources on the World Wide Web.</p>`,
-      web_server: `<p>tbd</p>`,
-      web_socket: `<p>protocol, standardized by IETF, providing full-duplex
+      web_server: `<p>An information technology that processes requests via HTTP,
+        the basic network protocol used to distribute information on the World Wide Web.</p>`,
+      web_socket: `<p>Protocol, standardized by IETF, providing full-duplex
         communication channels over a single TCP connection.</p>`,
       vim: `<p>Designed for use both from a command-line interface and
         as a standalone application in a graphical user interface.</p>
         <p>Vim is free and open source software and it has been voted the
         most popular editor amongst Linux Journal readers.</p>`,
+      virtual_private_network: `<p>a private network across a public network, such as the Internet.
+        It enables users to send and receive data across shared or public networks as if their
+        computing devices were directly connected to the private network, and thus are benefiting
+        from the functionality, security and management policies of the private network.</p>`,
       visualization: `<p>way of communicating using images for illustration of
         ones thoughts and ideas.</p>`,
       vocabulary: `<p>set of words in the language avaiable to the subject</p>`,
@@ -844,7 +899,9 @@ export default {
       word: `<p>Strings of characters having property of being meaningfull.</p>`,
       WWW: `<p>An information space where documents and other web resources are
         identified by URIs, interlinked by hypertext links,
-        and can be accessed via the Internet.</p>`
+        and can be accessed via the Internet.</p><p>It has been extended to handle
+        wider range of applications from social networks to payment portals. This
+        has been enabled by AJAX.</p>`
     },
     notFound: {
       continueMessage: 'Continue here please.',

@@ -19,6 +19,6 @@ for download
 
 > gulp
 
-> and navigate to localhost:8000
+> and navigate to localhost:8000/mindmap
 
 Licence MIT 2015
