@@ -14,7 +14,7 @@ export default {
     messages: messages[initialLocale]
   },
   mindmap: {
-    head: 'index'
+    head: 'functional_programming'
   },
   pendingActions: {},
   users: {
