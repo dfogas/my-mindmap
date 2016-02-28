@@ -1,3 +1,4 @@
+/*eslint camelcase: 0 */
 export default {
   en: {
     app: {
@@ -124,8 +125,8 @@ export default {
         Other name for it is postulate - 5 postulates of geometry named Euclid's postulates.</p>`,
       axiom_of_choice: `<p>An axiom of set theory equivalent to the statement that
         the Cartesian product of a collection of non-empty sets is non-empty.</p>`,
-      AJAX: `<p>Set of client-side web technologies used to communicate with the server
-        It works asynchronously and it is used to dynamically uploads the web pages.</p>`,
+      AJAX: `<p>Set of client-side web technologies used to communicate with the server.
+        It works asynchronously and it is used to dynamically update the web pages.</p>`,
       batch_program: `<p>Execution of series of programs("jobs") on computer,
         without manual intervention</p>`,
       beauty: `<p>We live to discover beauty.</p><p>Beauty is subjective quality,
@@ -135,6 +136,11 @@ export default {
         the case with factual certainty.</p>`,
       big_O_notation: `<p>Function in the sense of mathematical function, used to measure, usually,
         time requirements of computation in terms of number of inputs (labeled n, n is natural number.)</p>`,
+      binary_number: `<p>number expressed in the base-2 numeral system which represents
+        numeric values using two different symbols: typically 0 (zero) and 1 (one).
+        The base-2 system is a positional notation with a radix of 2. Because of its straightforward
+        implementation in digital electronic circuitry using logic gates, the binary system is used internally
+        by almost all modern computers and computer-based devices. Each digit is referred to as a bit.</p>`,
       binary_relation: `<p>Expresses relation of elements of set A, to elements of set B.</p>`,
       biology: `<p>Natural science concerned with the study of life and living organisms,
         including their structure, function, growth, evolution, distribution, and taxonomy.</p>`,
@@ -144,8 +150,10 @@ export default {
         of addition or multiplication can be performed by bitwise shifts.</p>`,
       brain: `<p>Brain is an organ that serves as the center of the nervous system
         in all vertebrate and most invertebrate animals.</p>`,
+      bytecode: `<p>Also known as portable code, form of instruction set designed for efficient
+        execution by a software interpreter.</p>`,
       Blockchain: `<p>Public distributed database with records of all bitcoin transactions.</p>`,
-      c_programming_language: `<p>Imperative, supports structured programming, maps
+      c_pl: `<p>Imperative, supports structured programming, maps
         efficiently to machine instruction, which makes it the language of operating systems.</p>`,
       c_plus_plus: `<p>Programming language used, thanks to its object-oriented feature, class,
         for system programming and development of desktop applications. First appeared 1983.</p>`,
@@ -254,6 +262,7 @@ export default {
       constant: `<p>Non-varying value</p>`,
       constructed_language: `<p>Language whose phonology, grammar, and vocabulary have been consciously
         devised for human or human-like communication, instead of having developed naturally.</p>`,
+      consumer_electonics: `<p>in U.S. possibly U.K., meant for entertainment</p>`,
       content_management_system: `<p>Software tool used to add, modify or remove content of (usually) web pages,
         so that it stays relevant and attractive for those who view it.</p>`,
       context: `<p><li>Specifically refers to the text or speech surrounding an expression
@@ -298,6 +307,10 @@ export default {
       CGI: `<p>The application of computer graphics to create or contribute to images
         in art, printed media, video games, films, television programs, commercials,
         videos, and simulators.</p><p>Most commonly used for 3D computer graphics.</p>`,
+      CSS: `<p>A style sheet language used for describing the presentation of a document written in a markup language,
+        used mainly for HTML. It started as simple format of HTML, nevertheless, evolved
+        considerably and is used in many ways that full fledged programming language is better
+        suited for.</p>`,
       data: `<p>Set of values of qualitative or quantitative variables</p>
         <p>It can be visualized using graphs or images.</p>
         <p>As a general concept refers to the fact that some existing information
@@ -359,7 +372,18 @@ export default {
       DOM: `<p>Cross-platform and language-independent convention for representing
         and interacting with objects in HTML, XHTML, and XML documents.</p><p>
         Javascript programming language is used for DOM manipulation.</p>`,
-      electrical_components: `<p>Inducer, capacitor(condenser), transistor, resistor, </p>`,
+      electric_current: `<p>tbd</p>`,
+      electrical_components: `<p>Inducer, capacitor(condenser), transistor, resistor, battery, etc.</p>`,
+      electrical_connector: `<p>tbd</p>`,
+      electrical_load: `<p>Electrical component that consumes power.</p><p>The term is used more broadly
+        in electronics for a device connected to a signal source, whether or not it consumes power.
+        (e.g. amplifier, CD_player)</p><p>Load affects the performance of circuits with respect to output
+        voltages or currents, such as in sensors, voltage sources, and amplifiers.
+        Mains power outlets provide an easy example: they supply power at constant voltage,
+        with electrical appliances connected to the power circuit collectively making up the load.</p>`,
+      electricity: `<p>Physical phenomena associated with presence and flow of electric charge.</p>
+        <p>Wide range of effects is associated with it, such as electric current or electromagnetic radiation.</p>`,
+      electromagnetic_radiation: `<p>tbd</p>`,
       electromagnetism: `<p>a branch of physics which involves the study of the electromagnetic force,
         a type of physical interaction that occurs between electrically charged particles</p>`,
       electron: `<p>subatomic particle, symbol e− or β−, with a negative elementary electric charge.</p>`,
@@ -399,8 +423,11 @@ export default {
       event_loop: `<p>Software, which is queue of events with callbacks (timers, network + 1 more).
         If it has nothing to process it finishes. Started to go mainstream with introduction of MacIntosh
         in 1984.</p>`,
+      examples_domain: `<p>Embedded systems, telecomunications, control systems, e-business, sensors, weapons etc.</p>
+        <p>No classification encompassing domains found yet.</p>`,
       examples_pl: `<p>Among prominent programming languages today are C, Java, C++, C#, Python,
         PHP, Visual Basic .NET, Javascript, Assembly language, Ruby.</p>`,
+      examples_sensors: `<p>Thermocouple.</p>`,
       execution: `<p>Execution is a processing of program's machine code by computer.</p>`,
       expression: `<p>Combination of one or more explicit values, constants,
         variables, operators, and functions.</p>`,
@@ -421,8 +448,8 @@ export default {
         now, because of CGI-based special effects, fully digital.</p>`,
       filter: `<p>Mechanism, that by applying some restrictive rule(s) to a stream, decides what goes
         through.</p>`,
-      firstclass_function: `<p>in programming, 1stclass func means that function can
-        be freely exchanged for its value, when we think about the program flow</p>`,
+      firstclass_function: `<p>In programming, 1stclass func means that code representing this function can
+        be freely exchanged for its value, when we think about the program flow.</p>`,
       force: `<p>tbd</p>`,
       form: `<p><ol><li>shape, visual appearance, constitution or configuration
         of an object way something is or happens i.e. style</p>`,
@@ -437,6 +464,7 @@ export default {
           <li>sets of axioms that are well-formed formulas</li>
           <li>set of inference rules</li>
         </ol></p>`,
+      full_adder: `<p>Digital circuit that adds binary numbers, and accounts for values carried in as well.</p>`,
       function: `<p><ol><li>Mathematics - A function is a relation between
         values: its input values produces exactly one output value, which, in functional
         programming paradigm, can also be a function, not an instance of type.
@@ -464,6 +492,9 @@ export default {
         a structure that can map keys to values</p>`,
       GSM: `<p>Standard for telecommunications protocols for 2nd gen cell network, default
         global standard for mobile communications by 2014.</p>`,
+      half_adder: `<p>Digital circuit, that adds two single binary digits A and B.
+        It has two outputs, sum (S) and carry (C). The carry signal represents an overflow
+        into the next digit of a multi-digit addition.</p>`,
       hardware: `<p>Collection of physical elements that constitutes a computer system</p>`,
       hash_function: `<p>A function that can be used to map data of arbitrary size
         to data of fixed size.</p>`,
@@ -472,6 +503,10 @@ export default {
       hierarchy: `<p>An arrangement of items (objects, names, values, categories, etc.)
         in which the items are represented as being "above," "below," or "at the same
         level as" one another.</p>`,
+      high_level_language: `<p>PL with strong abstraction from the details of the computer.
+        First such significant PL was FORTRAN.</p><p>They use natural language elements, may automate
+        and/or hide significant areas of computing systems(e.g. memory management) making process
+        of developing program simpler and more understandable.</p>`,
       homomorphism: `<p>see morphism.</p>`,
       http: `<p>An application protocol for distributed, collaborative, hypermedia
         information systems; it is the foundation of data communication for the World Wide Web.</p>`,
@@ -501,32 +536,45 @@ export default {
         distribution technologies such as television and telephones.</p>`,
       illusion: `<p>Visual appearance of something that is not really there.</p>`,
       illustration: `<p>Depiction of a subject, using graphical representation.</p>`,
-      image: `<p>Graphical representation of some object state. Also a form of data encoding.</p>`,
+      image: `<p>Graphical representation of some object state.</p>`,
       immutability: `<p>Once data structure is created, it can't change.</p>`,
-      imperative_programming: `<p>programming paradigm, where focus is on how machine operates
-        and on telling it exactly <b>how</b> to do it.</p>`,
+      impedance: `<p>What is electrical resistance for direct current, that is impedance for alternating
+        current.</p><p>Expressed as complex number.</p>`,
+      imperative_programming: `<p>Programming paradigm, where focus is on how machine operates
+        and on telling it exactly <b>how</b> to do it. This is contrast to declarative paradigm,
+        where the spotlight is on what program should do, leaving how it should do it to program
+        language implementation.</p><p>Procedural programming, which was and is prevalent in programming to 2016,
+        is imperative programming, greatly simplified by modularization of subroutines.</p>`,
       implementation: `<p>Realization of an application, or execution of a plan,
         idea, model, design, specification, standard, algorithm, or policy, with later
         use for it in mind.</p>`,
       impulse: `<p>Anything, in physics, that changes momentum of an object - the integral of force
         with respect to time.</p>`,
-      inference: `<p>act or process of deriving logical conclusions from premises
-        known or assumed to be true</p>`,
+      inference: `<p>Act or process of deriving logical conclusions from premises
+        known or assumed to be true.</p>`,
+      informatics: `<p>Science of computer information systems.</p><p>It encompasses
+        computer science, information technology, theory of information and other
+        crossdisplicines tied to domain e.g. medicine.</p>`,
       information_system: `<p>Any organized system for collection, organization, storage
         and communication of information.</p>`,
       information: `<p>That which informs, i.e. an answer to a question,
         as well as that from which data can be derived by observer.</p>
         <p>For easier information sharing among humans, different kinds of visualization
         tools are used.</p>`,
+      instruction: `<p>Atomic processor command, it can be directly executed by CPU.
+        <p>Instruction set is part of computer architecture related to programming.</p>`,
+      instruction_set: `<p>Part of the computer architecture related to programming,
+        including the native data types, instructions, registers, addressing modes,
+        memory architecture, interrupt and exception handling, and external I/O.
+        An ISA includes a specification of the set of opcodes (machine language),
+        and the native commands implemented by a particular processor.</p>`,
       integral: `<p>Developed by Leibniz and Newton, it serves to counting surface and volume.</p>
         <p>It is inverse to derivation i.e. if we integrate previously derived function we get original
         function.</p>`,
       integrated_circuit: `<p>Modern electrical component. It is composed(integrated) from many simple
-        electrical components. Those form together an electrical circuit for some higher order function.</p>
-        <p>There are monolithic(which are utmost prevalent) and hybrid IC's.</p>`,
-      instruction: `<p>Atomic processor command, it can be directly executed by CPU.
-        <p>Instruction set is part of computer architecture related to programming.</p>`,
-      integral: `<p>tbd</p>`,
+        electrical components. Those form together an electrical circuit performing more complicated function.</p>
+        <p>There are monolithic(which are utmost prevalent) and hybrid IC's.</p><p>ULSI is acronym for ultra-very-large scale
+        integration with over 100,000 logic gates on one IC.</p>`,
       interface: `<p>Point of interaction and sum of ways to influence behavior
         between/of complex systems, be it hardware and software or
         computer and human or something completely different</p>`,
@@ -578,8 +626,6 @@ export default {
       life: `<p>Life complex of properties or qualities, such as autonomous
        moving system, energy intake and transformation, and reproduction.</p>`,
       linker: `<p>tbd</p>`,
-      logic: `<p>Branch of philosophy concerned with the use and study of valid reasoning.</p>`,
-      logical_implication: `<p>tbd</p>`,
       linguistics: `<p>Scientific study of language. There are three aspects to this study:
         language form, language meaning, and language in context.</p>`,
       linked_list: `<p> A data structure consisting of a group of nodes which together
@@ -590,12 +636,23 @@ export default {
         Different types of linked list exist and are used as basis of other data stuctures.</p>`,
       linux: `<p>a Unix-like and mostly POSIX-compliant computer operating system (OS)
         assembled under the model of free and open-source software development and distribution</p>`,
-      machine_code: `<p>set of instructions executed directly by computer's CPU</p>`,
+      logic: `<p>Branch of philosophy concerned with the use and study of valid reasoning.</p><p>
+        Logic, as is usually case of sciences, overflows to other areas of knowledge, most dominantly
+        to mathematics and informatics.</p>`,
+      logical_implication: `<p>tbd</p>`,
+      logic_gate: `<p>An idealized or physical device implementing a Boolean function. i.e. It performs a logical
+        operation on one or more logical inputs and produces a single logical output.</p><p>Usually built by diodes
+        and transistors but other like relays can be used as well.</p><p>Logic circuits include multiplexers, registers, ALUs,
+        computer memory all the way up to microprocessors with over 100 milions gates.</p>`,
+      machine_code: `<p>Set of instructions executed directly by computer's CPU.</p>`,
+      major_appliance: `<p>Their characteristic is major consumption of electric current,
+        e.g. refrigerator.</p>`,
       making_examples: `<p>Substantial part of program design process, from examples
         of how program should work, tests verifying program function are developed.</p><p>
         Also a complement, in utility sense, to generalization.</p>`,
       markdown: `<p>Simple markdown format for writing readme files used by github and
         also elsewhere.</p>`,
+      markup_language: `<p>Evolved from Backus Naur notation, basically notation in itself, for describing parts of documents.</p>`,
       mathematical_analysis: `<p>Branch of mathematics, its main notions are function, limit, derivation
         and integral.</p><p>Also includes theory of series and two more other theories.</p><p>Also
         named calculus in anglo-countries.</p>`,
@@ -683,10 +740,16 @@ export default {
         </ul></p>`,
       object_code: `<p>Special form of machine code, executable, symbols and identifiers need to
         linked though.</p>`,
+      object_composition: `<p>A way to combine simple objects or data types into more complex ones.
+        Compositions are a critical building block of many basic data structures, including the tagged union,
+        the linked list, and the binary tree, as well as the object used in object-oriented programming.</p>`,
       object_oriented_programming: `<p>Objects are encapsulated chunks of code that communicate
         with other objects through interfaces (through methods that they have and expose).</p><p>
         It is under structured programming paradigm.</p>`,
       observer: `<p>Any system which receives information (from an object) and interprets it.</p>`,
+      'ones\'_complement': `<p>obtained by inverting all the bits in the binary representation of the number
+        (swapping 0s for 1s and vice versa). The ones' complement of the number then behaves like the
+        negative of the original number in some arithmetic operations.</p>`,
       open_loop_control_system: `<p>Type of control system, that generates output based only
         on input fed to it.</p>`,
       open_source: `<p>Source code is shared among developers that contribute to it.</p>`,
@@ -701,6 +764,9 @@ export default {
         <li>Mathematics - a function between two vector spaces</li></ol></p>`,
       organism: `<p>In biology, any contiguous living system, such as an animal, plant or
         bacterium.</p>`,
+      overflow: `<p>In a computer, the condition that occurs when a calculation produces
+        a result that is greater in magnitude than that which a given register or storage
+        location can store or represent.</p>`,
       package_manager: `<p>Collection of software tools that automates the
         process of installing, upgrading, configuring, and removing software
         packages for a computer's operating system in a consistent manner</p>`,
@@ -741,6 +807,7 @@ export default {
       polymorphism_oop: `<p>Object behaves according to class that it is instance of.
         Objects behave at the same manner when interacting with external inputs, and
         their inner workings differ.</p>`,
+      positional_notation: `<p>tbd</p>`,
       private_access: `<p>Only authorized entities can have access to or interact
         with some other entity, that has private access defined, as opposed to
         public access where authorization is not a concern.</p>`,
@@ -761,6 +828,11 @@ export default {
         computing problem to running an executable program.</p>`,
       programming_language: `<p>Formal constructed language designed to communicate
         instructions to a machine, particularly a computer.</p>`,
+      programming_language_implementation: `<p>Compiling -  A compiler takes as input a program
+        in some language, and translates that program into some other language, which may serve
+        as input to another interpreter or another compiler</p><p>Interpretation - an interpreter
+        takes as input a program in some language, and performs the actions written in that language
+        on some machine.</p><p>Other constructs are tranlator and bytecode.</p>`,
       programming_paradigm: `<p>Approach to programming, several exist, each evolving its own constructs,
         that help programmers to better understand the programs built by
         implementing that particular paradigm. Examples follow within links.</p>`,
@@ -783,6 +855,7 @@ export default {
       radio: `<p>Transmiting signal over air by modulating electromagnetic
         wave amplitude, frequency and duration.</p><p>Big technology starting in 20's
         of 20th century, less so now with television and then Web.</p>`,
+      radix: `<p>tbd</p>`,
       reactivity: `<p>Ability of program to update multiple views as the underlying
         data change.</p>`,
       reality: `<p>Collection of all objects, that we, humans, can observe and
@@ -798,12 +871,20 @@ export default {
       recursion: `<p>Process of repeating items in self similar way, for one.</p>
         <p>For two, in computer science, a method where solution depends on the solutions to the
         smaller instances of the same problem.</p>`,
+      referential_transparency: `<p>Though heavily mentioned in fp, it is actually
+        first mentioned under ip paradigm. Under fp it means that expression can be
+        freely replaced with its value without changing behaviour of the program. It
+        means roughly the same thing under ip paradigm, where it is much harder to achieve and
+        is not a requirement. Opposite is referential opacity.</p>`,
       reflexivity: `<p>A binary relation on a set for which every element is related
         to itself notation: x ~ x</p><p>notation: a ≤ a (reflexivity)</p>`,
       reg_ex: `<p>finite state automaton for manipulation of text</p>`,
       relation: `<p>A function, as explained by set theory.</p><p>In Greek language it
         is expressed as '<em>lógos</em>' as in 'analogous'.</p>`,
       relationship: `<p>Set of relations between two or more objects.</p>`,
+      relay: `<p>An electrically operated switch, usually implemented as electromagnet.</p>
+        <p>Solid state relays are also possible.</p><p>First used in long distance telegraph
+        as amplifiers of signal.</p>`,
       religion: `<p>Organized belief in some supernatural power, manifesting itself
         through written sources and ritualized behaviors.</p>`,
       replaceable_parts: `<p>Standardized parts can be replaced more easily.</p>`,
@@ -832,6 +913,8 @@ export default {
         <p>This includes the study of signs and sign processes (semiosis),
         indication, designation, likeness, analogy, metaphor, symbolism, signification,
         and communication.</p>`,
+      sensors: `<p>an object whose purpose is to detect change in its environment; type of transducer,
+        produces output, typically in optical or electrical signals.</p>`,
       sentience: `<p>Ability to feel sensations, in modern Western philosophy. Related to animal
         rights for obvious reason of feeling pain.</p>`,
       sequence: `<p>Ordered collection of objects in which repetitions are allowed.</p>`,
@@ -865,6 +948,8 @@ export default {
         time signal is some sensory information about the time of day etc.</p><p>
         In computing it is a form of interprocess_communication in Unix.</p>`,
       situation: `<p>State of things</p>`,
+      small_appliance: `<p>Simple domestic appliance for accomplishing one task, little
+        energy consumption e.g. microvawe, coffee machine, toaster etc.</p>`,
       social_network: `<p>Group of people involved in persistent social interaction,
         or a large social grouping sharing the same geographical or social territory,
         typically subject to the same political authority and dominant cultural
@@ -940,6 +1025,8 @@ export default {
       system: `<p>Collection of interacting or interdependent components.</p><p>
         Types of systems can be distributed system, or file system.</p>`,
       system_programming: `<p>tbd</p>`,
+      SPA: `<p>A web application or web site that fits on a single web page
+        with the goal of providing a more fluent user experience similar to a desktop application.</p>`,
       switch: `<p>By having a on/off cabability (state) it enables/disables some
         interaction.</p>`,
       SOA: `<p>Service oriented architecture - the center of attention is service, which
@@ -974,6 +1061,13 @@ export default {
       text_editor: `<p>Computer program used for editing plain text files.</p>`,
       theory: `<p>Contemplative and rational type of abstract
         or generalizing thinking, or the results of such thinking.</p>`,
+      theory_of_information: `<p>Branch of applied mathematics, electrical engineering and
+        computer science involving quantification, storage and communication of information.
+        </p><p>Dealing with data compression, pseudorandom generators,
+        channell coding (DSL).</p>`,
+      thermocouple: `<p>An electric device consists of two electrical junctions.</p>
+        <p>If one junction has different temperature than the other different electric potential
+        emerges as source of electric current.</p><p>It serves as sensor of thermo</p>`,
       thought: `<p>Thought can refer to the ideas or arrangements of ideas
         that result from thinking, the act of producing thoughts, or the process
         of producing thoughts.</p>
@@ -991,13 +1085,22 @@ export default {
       title: 'My Mindmap',
       tool: `<p>Item that can be used to achieve a goal
         especially if the item is not consumed in the process.</p>`,
+      transducer: `<p>Device which converts one form of energy to another.  Usually, it
+        converts a signal in one form of energy to a signal in another.</p>`,
       transistor: `<p>A semiconductor device used to amplify or switch electronic
         signals and electrical power.</p>`,
       transitivity: `<p>Mathematical relation, if a ≤ b and b ≤ c, then a ≤ c</p>`,
+      translator: `<p>Compiler from one high level language to another high level language.</p>
+        <p>Due to popularity of JS there are many so called 'transpilers' from given language
+        to JS.</p>`,
       transportation_layer: `<p>Network layer under application layer.</p>`,
       tuple: `<p>A finite ordered list of to n elements, where n is non-negative integer</p>`,
       turing_machine: `<p>Computer science tool for thinking, but testable in practice.</p>
         <p>All of computers are turing machines.</p>`,
+      'two\'s_complement': `<p>a mathematical operation on binary numbers, as well as a
+        binary signed number representation based on this operation. Its wide use in computing makes
+        it the most important example of a radix complement.</p><p>
+        It is equivalent to adding one to ones' complement, defined differently though.</p>`,
       type_system: `<p>Programming language feature used to reduce bugs.</p>`,
       TV_set: `<p>Device that combines a tuner, display, and loudspeakers for the purpose of
         viewing television. It was also display device for 1st generation of home computers.</p>`,
@@ -1046,13 +1149,14 @@ export default {
         as a standalone application in a graphical user interface.</p>
         <p>Vim is free and open source software and it has been voted the
         most popular editor amongst Linux Journal readers.</p>`,
-      virtual_private_network: `<p>a private network across a public network, such as the Internet.
+      virtual_machine: `<p>An emulation of a particular computer system.</p>`,
+      virtual_private_network: `<p>A private network across a public network, such as the Internet.
         It enables users to send and receive data across shared or public networks as if their
         computing devices were directly connected to the private network, and thus are benefiting
         from the functionality, security and management policies of the private network.</p>`,
-      visualization: `<p>Way of communicating;</p> <p>Using images for illustration of
+      visualization: `<p>Way of communicating;</p><p>Using images for illustration of
         ones thoughts and ideas.</p>`,
-      vocabulary: `<p>set of words in the language avaiable to the subject</p>`,
+      vocabulary: `<p>Set of words in the language avaiable to the subject.</p>`,
       whole: `<p>System communicating with other systems through interface,
         interaction of its components usually not shown. This property of whole
         is sometimes refered to as encapsulation or black box.</p>`,
@@ -1071,7 +1175,9 @@ export default {
         and can be accessed via the Internet.</p><p>It has been extended to handle
         wider range of applications from social networks to payment portals. This
         has been enabled by AJAX.</p>`,
-      XML: `<p>abbreviation for eXtended Markup Language, HTML is a subset of XML.</p>`
+      XML: `<p>abbreviation for eXtended Markup Language, HTML is a subset of XML.</p>`,
+      zero: `<p>One of basic mathematical constants.</p><p>For each number <em>a</em> is true that
+        a + 0 = a; and a * 0 = 0;</p><p>It separates negative from positive numbers.</p>`
     },
     notFound: {
       continueMessage: 'Continue here please.',
