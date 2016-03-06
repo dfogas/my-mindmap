@@ -157,11 +157,17 @@ export default {
         efficiently to machine instruction, which makes it the language of operating systems.</p>`,
       c_plus_plus: `<p>Programming language used, thanks to its object-oriented feature, class,
         for system programming and development of desktop applications. First appeared 1983.</p>`,
+      callback: `<p>In JS, callback is a convention, that names function that is passed as a
+        parameter to other function (making it HOF). The HOF performs either asynchronously, then
+        it is event handler or synchronously usually as pure function in data structure mappings, filtering
+        reducing, zipping etc.</p>`,
       category: `<p>Network of objects/structures w/ morphisms that connect them.</p>`,
       category_theory: `<p>An effort to connect mathematic theories of e.g. set, type,
         graph theory and logic as well.</p>`,
       change: `<p>Introduces new state devised by applying some function to current state.</p>`,
-      character: `<p>Unit of information corresponding to graphic symbol.</p>`,
+      character: `<p>Unit of information corresponding to graphic symbol.</p><p>Examples:
+        national alphabet, numbers, dot, comma, semi-colon, other punctuations, significant whitespace
+        standardized japanese, chinese and similar sign systems, and more.</p>`,
       character_set: `<p>Encoding used to represent a repertoire of
         characters by some kind of an encoding system.</p>`,
       chinese_room: `<p>Tool for thinking devised to demonstrate impossibility of constructing/developing
@@ -182,6 +188,10 @@ export default {
       closed_loop_control_system: `<p>Also called feedback control system.</p>
         <p>Current output of the system is taken into consideration and corrections
         are made based on feedback.</p>`,
+      closure: `<p>nice little programming construct, prevalent in functional programming
+        one of its applications is keeping reference to variable within function
+        even after function has returned.</p><p>this property is used in currying
+        functions and also in callbacks and so called iffies.</p>`,
       code: `<p>Also dubbed the source code is product of programmer's work
         written is one of programming language's.</p>`,
       code_reusability: `<p>The idea that the programmer's should be more
@@ -281,6 +291,10 @@ export default {
         directs or regulates the behaviour of other devices or systems.</p>`,
       convention: `<p>Set of agreed, stipulated, or generally accepted standards,
         norms, social norms, or criteria, often taking the form of a custom.</p>`,
+      coordinate_system: `<p>By having it, position of point in space can be expressed
+        as tuple of numbers coordinates.</p><p>Zero point, axises and unit of length or angle
+        are basis of any coordinate system.</p><p>Geometrical tasks can be than computed
+        through mathematics usual computation tools (equations).</p>`,
       cpu: `<p>Electronic circuitry within a computer that carries out the instructions
         of a computer program by performing the basic arithmetic, logical, control
         and input/output (I/O) operations specified by the instructions.</p>`,
@@ -299,6 +313,7 @@ export default {
       culture: `<p>That complex whole which includes knowledge, belief, art,
         morals, law, custom and any other capabilities and habits acquired by
         man as a member of society. (from Wikipedia)</p>`,
+      currying: `<p>tbd</p>`,
       cypher: `<p>An algorithm for performing encryption or decryption—a series
         of well-defined steps that can be followed as a procedure and also a product
         of such algorithm.</p>`,
@@ -317,6 +332,7 @@ export default {
         or knowledge is represented or coded in some form suitable for better usage
         or processing.</p>`,
       database: `<p>Centralized data store - loaded term.</p>`,
+      data_compression: `<p>tbd</p>`,
       data_definition: `<p>First step of program design process.</p>`,
       data_integrity: `<p>Way of verifying the completeness, expected structure and
         immutability of data, e.g. after network transfer.</p>`,
@@ -403,7 +419,7 @@ export default {
       encoding: `<p>The act or process of translating meaningful text to some
         outlandish gibberish according to some transformation rule. The key to
         translating this gibberish back to meaningful text is either public - in this
-        case it is just some form of data transfer, or private is such case it is
+        case it is just some form of data compression, or private is such case it is
         called cipher.</p>`,
       energy: `<p>In physics, property of objects which can be transferred to other objects
         or converted into different forms, but cannot be created or destroyed.</p>
@@ -420,9 +436,12 @@ export default {
         <p>Software that changes its behavior in response to events is said to be event-driven,
         often with the goal of being interactive.</p>`,
       event_handler: `<p>tbd</p>`,
-      event_loop: `<p>Software, which is queue of events with callbacks (timers, network + 1 more).
-        If it has nothing to process it finishes. Started to go mainstream with introduction of MacIntosh
-        in 1984.</p>`,
+      event_loop: `<p>Software, which handles queue of events that are callbacks of event listeners.
+        It is alternative to traditional synchronous I/O. Single-threaded. Its architectural design
+        makes it perfect match for distributed systems such as web, with the prerequisition that all of
+        its operations must be asynchronous.</p>
+        <p>If it has nothing to process it finishes. Started to go mainstream with introduction of MacIntosh
+        in 1984. Web browsers are also event loops.</p>`,
       examples_domain: `<p>Embedded systems, telecomunications, control systems, e-business, sensors, weapons etc.</p>
         <p>No classification encompassing domains found yet.</p>`,
       examples_pl: `<p>Among prominent programming languages today are C, Java, C++, C#, Python,
@@ -449,10 +468,11 @@ export default {
       filter: `<p>Mechanism, that by applying some restrictive rule(s) to a stream, decides what goes
         through.</p>`,
       firstclass_function: `<p>In programming, 1stclass func means that code representing this function can
-        be freely exchanged for its value, when we think about the program flow.</p>`,
+        be freely exchanged for its value, when we think about the program flow.</p><p>In JS implemented as
+        function objects.</p>`,
       force: `<p>tbd</p>`,
       form: `<p><ol><li>shape, visual appearance, constitution or configuration
-        of an object way something is or happens i.e. style</p>`,
+        of an object</li><<li>way something is or happens i.e. style/li></ol></p>`,
       formal_system: `<p>Any well-defined system of abstract thought based on the
         model of mathematics. Euclid's Elements is often held to be the first formal
         system and displays the characteristic of a formal system.</p>`,
@@ -518,6 +538,8 @@ export default {
         trend toward larger, more complex brains and societies.</p>`,
       hyperlink: `<p>A reference to data that the reader can directly follow either by clicking or by hovering.
         It points to a whole document or to a specific element within a document. Hypertext is text with hyperlinks.</p>`,
+      HOF: `<p>Function that either takes another function as argument or returns another function.</p>
+        <p>It needs firstclass functions.</p>`,
       HTML: `<p>Standard markup language used to create web pages. Web browsers
         can read HTML files and render them into visible or audible web pages.
         HTML describes the structure of a website semantically along with cues
@@ -529,11 +551,6 @@ export default {
         be abstract concepts that do not present as mental images.</p>`,
       identification: `<p>act or process of verifying the identity of subject</p><p>
         recently, act of identifying itself with some group of persons</p>`,
-      information_technology: `<p>Application of computers and telecommunications equipment
-        to store, retrieve, transmit and manipulate data, often in the context of
-        a business or other enterprise.</p><p>The term is commonly used as a synonym for
-        computers and computer networks, but it also encompasses other information
-        distribution technologies such as television and telephones.</p>`,
       illusion: `<p>Visual appearance of something that is not really there.</p>`,
       illustration: `<p>Depiction of a subject, using graphical representation.</p>`,
       image: `<p>Graphical representation of some object state.</p>`,
@@ -555,12 +572,17 @@ export default {
       informatics: `<p>Science of computer information systems.</p><p>It encompasses
         computer science, information technology, theory of information and other
         crossdisplicines tied to domain e.g. medicine.</p>`,
+      information: `<p>That which informs, i.e. an answer to a question,
+        as well as that from which knowledge can be derived by observer.</p>
+        <p>For easier information sharing among humans, different kinds of visualizations
+        and different data representation are used.</p>`,
       information_system: `<p>Any organized system for collection, organization, storage
         and communication of information.</p>`,
-      information: `<p>That which informs, i.e. an answer to a question,
-        as well as that from which data can be derived by observer.</p>
-        <p>For easier information sharing among humans, different kinds of visualization
-        tools are used.</p>`,
+      information_technology: `<p>Application of computers and telecommunications equipment
+        to store, retrieve, transmit and manipulate data, often in the context of
+        a business or other enterprise.</p><p>The term is commonly used as a synonym for
+        computers and computer networks, but it also encompasses other information
+        distribution technologies such as television and telephones.</p>`,
       instruction: `<p>Atomic processor command, it can be directly executed by CPU.
         <p>Instruction set is part of computer architecture related to programming.</p>`,
       instruction_set: `<p>Part of the computer architecture related to programming,
@@ -597,12 +619,19 @@ export default {
         their intuition to develop an answer to a problem.</p>`,
       io_operation: `<p>Concept of input and output is omnipresent in computer science.
         It can be compared to blackbox or it can be said that between input and
-        output operates just some function.</p>`,
+        output operates just some function.</p><p>Technically, bootstrapping
+        program lurks on the EPROM of the IC of computer and loads BIOS,
+        which then loads rest of operating system.</p>`,
       isomorphism: `<p>Homomorphism (i.e. morphism) that admits inverse.</p>`,
       IDE: `<p>A software application that provides comprehensive facilities to
         computer programmers for software development. It normally
         consists of a source code editor, build automation tools and a debugger
         (possibly intelligent code completion).</p>`,
+      IIFE: `<p>immediately invoked functional expression - remember! - it must be
+        functional expression (for function declaration does not work)</p>
+        <p>It enables (pseudo)classical style of programming in JS, but generally
+        has security and modular applications(e.g. JQuery and other JS libraries use it)
+        for providing their functionality in web browser.</p>`,
       ISA: `<p>the part of the computer architecture related to programming, including
         the native data types, instructions, registers, addressing modes, memory architecture,
         interrupt and exception handling, and external I/O.
@@ -613,7 +642,8 @@ export default {
         essential technologies of World Wide Web content production.</p>
         <p>It has an API for working with text, arrays, dates and regular expressions,
         but does not include any I/O, such as networking, storage or graphics facilities,
-        relying for these upon the host environment in which it is embedded.</p>`,
+        relying for these upon the host environment in which it is embedded.</p>
+        <p>It is first widespread language with functional scope and therefore, closure.</p>`,
       JSON: `<p>Data format for transfers, making it target of most data transfers on
         Web.</p><p>Works well with JS from which it takes cue as for about its design.</p>`,
       knowledge: `<p>What a understanding observer infers from information;
@@ -746,7 +776,8 @@ export default {
       object_oriented_programming: `<p>Objects are encapsulated chunks of code that communicate
         with other objects through interfaces (through methods that they have and expose).</p><p>
         It is under structured programming paradigm.</p>`,
-      observer: `<p>Any system which receives information (from an object) and interprets it.</p>`,
+      observer: `<p>Any system which receives information (from an object) and interprets it.</p>
+        <p>Also a notion in software design. It can be compared to event listeners in Node.Js.</p>`,
       'ones\'_complement': `<p>obtained by inverting all the bits in the binary representation of the number
         (swapping 0s for 1s and vice versa). The ones' complement of the number then behaves like the
         negative of the original number in some arithmetic operations.</p>`,
@@ -808,6 +839,10 @@ export default {
         Objects behave at the same manner when interacting with external inputs, and
         their inner workings differ.</p>`,
       positional_notation: `<p>tbd</p>`,
+      posix: `<p>family of standards specified by the IEEE Computer Society for maintaining
+        compatibility between operating systems.
+        POSIX defines the application programming interface (API), along with command line shells
+        and utility interfaces, for software compatibility with variants of Unix and other operating systems.</p>`,
       private_access: `<p>Only authorized entities can have access to or interact
         with some other entity, that has private access defined, as opposed to
         public access where authorization is not a concern.</p>`,
@@ -896,6 +931,10 @@ export default {
         in some consistent way to those existing among the corresponding represented objects xi.</span></p>`,
       RAM: `<p>Form of computer data storage. It allows for almost the same amount of time access, irrespective of
         the physical location of data inside memory.</p>`,
+      scalar: `<p>As in scale, scalability.</p><ol><li>In mathematics, number that can multiply vector in
+        context of vector_space.</li><li>In physics, a quantity that is independent of specific classes
+        of coordinate systems.</li><li>In computing, equal to variable, i.e. atomic quantity that can
+        hold only one value at the time.</li></ol>`,
       science: `<p>Process of studying and summing up knowledge about world that surrounds us.</p>
         <p>This process and knowledge is subject to peer review and some strict conventions about
         conducting experiments that shape it.</p>`,
@@ -985,6 +1024,7 @@ export default {
         use of its facilities.</p>`,
       space: `<p>The boundless three-dimensional extent in which objects and events
         have relative position and direction.</p>`,
+      stack: `<p>tbd (stack of hot plates in plateholder)</p>`,
       standard: `<p>Written description of technical specifications about the
         way something should be done.</p>`,
       state: `<p>Technical term for all the stored information,
@@ -1055,6 +1095,7 @@ export default {
       testing: `<p>Part of program design process, we write tests first and then the
         desired functionality itself; after that we run program together with tests
         to ensure that it works as anticipated.</p>`,
+      text: `<p>tbd</p>`,
       text_based_interface: `<p>a retronym that was coined sometime after the invention
         of graphical user interfaces, to distinguish a text-based interface that
         processes events from command-line interfaces that operate sequentially.</p>`,
@@ -1105,7 +1146,7 @@ export default {
       TV_set: `<p>Device that combines a tuner, display, and loudspeakers for the purpose of
         viewing television. It was also display device for 1st generation of home computers.</p>`,
       TLS: `<p>Cryptographic protocol designed to provide communications security over a computer network.</p>`,
-      unicode: `<p>Computing industry standard for consistend encoding, representation
+      unicode: `<p>Computing industry standard for consistent encoding, representation
         and handling of text expressed in most of world's writing system's.</p>`,
       universe: `<p>Ultimate collection.</p>`,
       unix: `<p>A family of multitasking, multiuser computer operating systems.</p>`,
@@ -1144,6 +1185,13 @@ export default {
         is composed of different engines, prominent part of which is event loop.</p> `,
       web_server: `<p>An information technology that processes requests via HTTP,
         the basic network protocol used to distribute information on the World Wide Web.</p>`,
+      vector: `<p>In mathematics and physics, most generally, an element of a vector space.
+        In physics and geometry, a Euclidean vector, used to represent physical quantities
+        that have both magnitude and direction.
+        Vector can also have a variety of different meanings depending on context.</p>`,
+      vector_space: `<p>Collection of objects called vectors that can be added together and
+        multiplied by numbers, called scalars in this context. These operations on vectors
+        must fullfil certain axioms.</p>`,
       video_game_development: `<p>tbd</p>`,
       vim: `<p>Designed for use both from a command-line interface and
         as a standalone application in a graphical user interface.</p>
