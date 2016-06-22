@@ -14,7 +14,7 @@ export default {
     messages: messages[initialLocale]
   },
   mindmap: {
-    head: 'graph_theory'
+    head: 'machine'
   },
   pendingActions: {},
   users: {

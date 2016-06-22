@@ -124,6 +124,10 @@ export default {
       authorization: `<p>Function of specifying access rights to resources related
         to information security and computer security in general and to access control
         in particular.</p>`,
+      automata_theory: `<p>Study of abstract machines and automata, as well as computational
+        problems that can be solved using them.</p>`,
+      automaton: `<p>A machine or control mechanism designed to perform sequence of pre
+        determined operations or respond to predetermined instruction.</p>`,
       automation: `<p>Use of various control systems for operating e.g. machinery,
         processes in factories, boilers, switching telephone networks, steering and stabilization
         of ships, aircrafts, cars - its use is ubiquitous - with small or possibly no human
@@ -437,6 +441,10 @@ export default {
         Implementations of dynamically type-checked languages generally associate each runtime object with a "type tag"
         (i.e., a reference to a type) containing its type information. This runtime type information (RTTI) can also
         be used to implement dynamic dispatch, late binding, downcasting, reflection, and similar features.</p>`,
+      DNS: `<p>Hierarchy of domain names, implemented by DNS servers, over protocol
+        of the same name. Its main task and reason to be is translating I.P. addresses to domain names and
+        reversely. Later, other functions were added and now it, de facto, serves as distributed database of
+        network information.</p>`,
       DOM: `<p>Cross-platform and language-independent convention for representing
         and interacting with objects in HTML, XHTML, and XML documents.</p><p>
         Javascript programming language is used for DOM manipulation.</p>`,
@@ -479,6 +487,12 @@ export default {
         but it is difficult to give one single comprehensive definition of energy because
         of its many forms.</p>`,
       entity: `<p>An entity is something that exists in itself.</p>`,
+      environmental_evaluation: `<p>A system of compound expression evaluation
+        where procedure has its local state that mutates during evaluation
+        such state is written as one or more symbolic names that are mutated by
+        assignment statement.</p><p>Such system is modeled by using so called
+        frame of reference i.e. environment, in which mutation does not exist i.e.
+        mutation leads to change of frame of reference.</p>`,
       epistemology: `<p>Theory of knowledge - eye is necessary for sight but it does not see
         itself (unless positioned in front of the light reflecting surface).</p>`,
       este_js: `<p>Set of js libraries for building isomorphic/universal webapps with
@@ -531,7 +545,7 @@ export default {
         can be used as arguments to other functions, returned as values by other functions, assigned to variables,
         stored in data structures. Some might require also support for anonymous functions. Names of functions
         do not have any special status, they are treated like ordinary variable with function type.</p>`,
-      fn_implementation_substitution: `<p>possibility to replace function call with its implementation
+      fn_implementation_substitution: `<p>Possibility to replace function call with its implementation
         #notACommonThing</p>`,
       force: `<p>tbd</p>`,
       form: `<p>Originally taking from metal casting where form was complement of casted shape.
@@ -565,6 +579,9 @@ export default {
         lambda calculus, system devised in 30ties to investigate function definition, application and
         recursion. Many programming languages can be understood as extension to lambda calculus.</p>
         <p>Its main feature, in comparison to imperative paradigm, is referential transparency.</p>`,
+      FSM: `<p>mathematical model of computation used to design both computer programs
+        and sequential logic circuits. It is conceived as an abstract machine that can be in one
+        of a finite number of states.</p>`,
       game_engine: `<p>software framework for designing video games</p>`,
       geometry: `<p>Branch of mathematics concerned with questions of shape, size,
          relative position of figures, and the properties of space.</p>`,
@@ -623,6 +640,7 @@ export default {
         </p><p>"little document system that is way overused" -Doug Crockford-</p>`,
       HTTP: `<p>An application protocol for distributed, collaborative, hypermedia
         information systems; it is the foundation of data communication for the World Wide Web.</p>`,
+      HTTPS: `<p></p>`,
       icon: `<p>A pictogram displayed on a computer screen in order to help
         the user navigate a computer system or mobile device</p>`,
       idea: `<p>Construed as mental representational images of some object. Can also
@@ -631,6 +649,10 @@ export default {
         recently, act of identifying itself with some group of persons</p>`,
       illusion: `<p>Visual appearance of something that is not really there.</p>`,
       illustration: `<p>Depiction of a subject, using graphical representation.</p>`,
+      idempotence: `<p>
+        property of algebraic operation, where repeated use of operation leads to the
+        same result
+      </p>`,
       identifier: `<p>Symbolic name associated with value, possibly by assignment operator.</p>`,
       image: `<p>Graphical representation of some object state.</p>`,
       immutability: `<p>Once data structure is created, it can't change.</p>`,
@@ -686,7 +708,9 @@ export default {
         <p>The Internet carries an extensive range of information resources and services,
         such as the inter-linked hypertext documents and applications of the World Wide Web (WWW),
         electronic mail, telephony, and peer-to-peer networks for file sharing.</p>`,
-      interprocess_communication: `<p>tbd</p>`,
+      internet_domain: `<p>Identification string that defines realm of administrative control
+        within internet. Also called domain names, are formed by procedures and rules of DNS.
+        Any name registered in DNS is a domain name (is interned domain).`,
       intelligence: `<p> Disposition for thinking, learning and adaptation.</p>
         <p>Together with personality, it creates fundamental source of personal differences. </p>`,
       interactive_program: `<p>Program that when executed, loads itself persistently and sets
@@ -696,6 +720,7 @@ export default {
       interpreter: `<p>Software that translates programming language code to
         machine code as the program is being and is run. This feature makes it
         contrary to compiler.</p>`,
+      interprocess_communication: `<p>tbd</p>`,
       intuition_pump: `<p>A thought experiment structured to allow the thinker to use
         their intuition to develop an answer to a problem.</p>`,
       io_operation: `<p>Concept of input and output is omnipresent in computer science.
@@ -719,6 +744,10 @@ export default {
         that enables these objects to collect and exchange data</p>`,
       IP: `<p>Principal communications protocol in the Internet protocol suite
         for relaying datagrams across network boundaries.</p>`,
+      IP_address: `<p>Numerical label, assigned to each device in the network, that uses
+        IP protocol. It identifies the device unambiguously.</p>
+        <p>Two different versions exist - IPv4, that uses decadic oktets e.g. 192.158.9.1;
+        and IPv6 that is using 128-bit address in hexadecimal form e.g. 2001:db8:0:1234:0:567:8:1.</p>`,
       ISA: `<p>the part of the computer architecture related to programming, including
         the native data types, instructions, registers, addressing modes, memory architecture,
         interrupt and exception handling, and external I/O.
@@ -767,6 +796,9 @@ export default {
         operation on one or more logical inputs and produces a single logical output.</p><p>Usually built by diodes
         and transistors but other like relays can be used as well.</p><p>Logic circuits include multiplexers, registers, ALUs,
         computer memory all the way up to microprocessors with over 100 milions gates.</p>`,
+      machine: `<p>A tool usually composed of a few parts, which is using energy to perform intended action.</p>
+        <p>By the advent of electronics "powered tools" without moving parts are considered machines
+        as well.</p><p>They range in complexity very much.</p>`,
       machine_code: `<p>Set of instructions executed directly by piece of computer hardware,
         usually computer's CPU.</p>`,
       major_appliance: `<p>Their characteristic is major consumption of electric current,
@@ -807,6 +839,10 @@ export default {
       meaning: `<p>What the source or sender expresses, communicates,
         or conveys in their message to the observer or receiver, and
         what the receiver infers from the current context</p>`,
+      message_passing: `<p>Programming technique, that relies on simply passing the
+        data to the recipient, and relying on the assumption that he would know
+        what to do with that data.</p><p>Counterpart to this is call by name convention, where
+        function, procedure, subroutine is called directly.</p>`,
       metacircular_evaluator: `<p> special case of a self-interpreter in which the existing
         facilities of the parent interpreter are directly applied to the source code being
         interpreted, without any need for additional implementation.
@@ -826,9 +862,15 @@ export default {
         humans, but which also applies to other life forms.</p>`,
       mindmap: `<p><ol><li>diagram used to visually organize information</li>
         <li>a way of representing the knowledge of human(s)</li></ol></p>`,
-      mocha_js: `<p>Test runner fore node_js. Run from command-line checks for test
+      mocha_js: `<p>Test runner for node_js. Run from command-line checks for test
         folder within current folder and runs tests defined in the files found
         within that folder.</p><p>Integration with Karma module is possible.(as well as gulp)</p>`,
+      models_of_computation: `<p>nothing yet</p>`,
+      models_of_evaluation: `<p>there are two models of computation -
+        simple substitutional model where name associated to values are not changing as the
+        computation progresses and second more complicated environmental model of computation
+        where each computation keeps its frame of reference for names of values that
+        is computing.</p>`,
       momentum: `<p>tbd</p>`,
       monolith: `<p>From Latine - "one stone". In software architecture, a software product
         which is made for one purpose and is non-composable. It can be and usually is fairly
@@ -849,6 +891,7 @@ export default {
         <p>Binding is intimately connected with scoping, as scope determines
         which names bind to which objects – at which locations in the program code (lexically)
         and in which one of the possible execution paths (temporally).</p>`,
+      natural_number: `<p>In mathematics are used for counting and ordering.</p>`,
       nature: `<p>physis - observable - tbd</p>`,
       nerve: `<p>bioelectric conductor of body impulses</p>`,
       network: `<p>There are many types of networks e.g. like social network or
@@ -859,6 +902,10 @@ export default {
         discussion groups, email etc.</p>`,
       network_model: `<p>Abstraction, tool for thinking about or conceptual model of
         computer network.</p>`,
+      network_packet: `<p>Formatted unit of data carried by packet_switching network.</p>
+        <p>Packet applies only to Network Layer of network model. On the Link Layer
+        there are frames and on the Transport Layer (TCP or UDP) segments. Each segment consist
+        of multiple packets and each packet can be carried by multiple frames.</p>`,
       network_protocol: `<p>Protocol that enable communication of computers
         and computer networks.</p><p>Examples - TCP controls data delivery after they reach system,
         while ip handles transfering and routing in network layer by assigning unique
@@ -885,6 +932,7 @@ export default {
         <p>It contains shitload of software libraries packaged as modules accesible through CLI
         'npm install module_name', their quality questionable and their focus differ greatly.</p>`,
       number: `<p>Mathematical object used to count, measure and label.</p>`,
+      numeral: `<p>Symbol of notation for number.</p>`,
       NoSQL: `<p>Database technology that organizes data as independent documents, it is less
         optimized for document retrieval, but is more scalable.</p>`,
       object: `<p><ul><li>An entity w/ certain properties and/or method(s)
@@ -978,6 +1026,8 @@ export default {
         compatibility between operating systems.
         POSIX defines the application programming interface (API), along with command line shells
         and utility interfaces, for software compatibility with variants of Unix and other operating systems.</p>`,
+      power_tool: `<p>tool not solely operated manually but augmented or solely actuated by some power source e.g.
+        dynamo</p>`,
       private_access: `<p>Only authorized entities can have access to or interact
         with some other entity, that has private access defined, as opposed to
         public access where authorization is not a concern.</p>`,
@@ -1213,6 +1263,10 @@ export default {
         <li>In language, who or what a sentence or a clause is about.</li></ol></p>`,
       substitution: `<p>In mathematics, replacing complex expressions by more
         simple expressions, facilitating easier understanding of expressions.</p>`,
+      substitution_evaluation: `<p>System of sequential evaluation of compound
+        expressions that are manipulating values, that once declared do not change.</p>
+        <p>Under such system compound expression can be freely substituted for
+        value i.e. procedure given the same parameters, returns the same result.</p>`,
       symbol: `<p>Object that represents/stands for or suggests an idea,
         visual image, belief, action or material entity.</p>
         <p>Symbols take the form of words, sounds, gestures or visual images.</p>`,
@@ -1376,9 +1430,12 @@ export default {
         ones thoughts and ideas.</p>`,
       vocabulary: `<p>Set of words in the language avaiable to the subject.</p>`,
       V8: `<p>open source JavaScript engine, compiles Javascript to native machine code,
-        before executing it, instead of more traditional techniques such as interpreting bytecode or compiling the whole program to machine code
-        and executing it from a filesystem. The compiled code is additionally optimized (and re-optimized) dynamically at runtime, based on heuristics of the code's execution profile.
-        Optimization techniques used include inlining, elision of expensive runtime properties, and inline caching, among many others</p>`,
+        before executing it, instead of more traditional techniques such as interpreting
+        bytecode or compiling the whole program to machine code
+        and executing it from a filesystem. The compiled code is additionally optimized
+        (and re-optimized) dynamically at runtime, based on heuristics of the code's execution profile.
+        Optimization techniques used include inlining, elision of expensive runtime properties,
+        and inline caching, among many others</p>`,
       web_application: `<p>An application that runs on Web(WWW). Different
         commercial and non-commercial apps(abbreviated) are being built, searched and run
         every day. Most notorious are Google, Facebook, Wikipedia and many others.</p>`,
@@ -1410,7 +1467,9 @@ export default {
         and can be accessed via the Internet.</p><p>It has been extended to handle
         wider range of applications from social networks to payment portals. This
         has been enabled by AJAX.</p>`,
-      XML: `<p>abbreviation for eXtended Markup Language, HTML is a subset of XML.</p>`,
+      XML: `<p>abbreviation for eXtended Markup Language, HTML is a subset of XML.</p><p>
+        defines set of rules for encoding documents that are both human-readable and
+        machine-readable.</p>`,
       zero: `<p>One of basic mathematical constants.</p><p>For each number <em>a</em> is true that
         a + 0 = a; and a * 0 = 0;</p><p>It separates negative from positive numbers.</p>`
     },
