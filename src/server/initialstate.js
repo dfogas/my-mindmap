@@ -14,7 +14,7 @@ export default {
     messages: messages[initialLocale]
   },
   mindmap: {
-    head: 'machine'
+    head: 'game'
   },
   pendingActions: {},
   users: {

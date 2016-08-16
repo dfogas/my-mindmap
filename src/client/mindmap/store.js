@@ -11,4 +11,9 @@ export const dispatchToken = register(({action, data}) => {
     });
   }
 
+  if (action === mindmapActions.updateFormField)
+    mindmapCursor(mindmap => {
+      return mindmap.setIn(['form', data.name], data.value);
+    });
+
 });

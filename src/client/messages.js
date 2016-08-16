@@ -112,6 +112,8 @@ export default {
         it visible</p>`,
       ascii: `<p>American National Standards Institute text Interchange format, character-encoding
         scheme comprised of 128 text characters, origins dated back to telegraph times.</p>`,
+      assembler: `<p>computer program that would translate assembly language to an object file
+        or machine language format</p>`,
       assembly_language: `<p>not so a programming language, but rather a direct model
         of underlying machine architecture</p>`,
       assignment: `<p>Operator for associating symbolic name with value.</p>`,
@@ -441,6 +443,8 @@ export default {
         Implementations of dynamically type-checked languages generally associate each runtime object with a "type tag"
         (i.e., a reference to a type) containing its type information. This runtime type information (RTTI) can also
         be used to implement dynamic dispatch, late binding, downcasting, reflection, and similar features.</p>`,
+      DBMS: `<p>computer software application that interacts with the user, other applications,
+        and the database itself to capture and analyze data.</p>`,
       DNS: `<p>Hierarchy of domain names, implemented by DNS servers, over protocol
         of the same name. Its main task and reason to be is translating I.P. addresses to domain names and
         reversely. Later, other functions were added and now it, de facto, serves as distributed database of
@@ -567,7 +571,7 @@ export default {
           <li>set of inference rules</li>
         </ol></p>`,
       full_adder: `<p>Digital circuit that adds binary numbers, and accounts for values carried in as well.</p>`,
-      function: `<p><ol><li>Mathematics - A function is a relation between
+      'function': `<p><ol><li>Mathematics - A function is a relation between
         values: its input values produces exactly one output value, which, in functional
         programming paradigm, can also be a function, not an instance of type.
         <li>Programming (non-functional) - a subset of instructions
@@ -582,6 +586,7 @@ export default {
       FSM: `<p>mathematical model of computation used to design both computer programs
         and sequential logic circuits. It is conceived as an abstract machine that can be in one
         of a finite number of states.</p>`,
+      game: `<p>Problem-solving activity approached with playful attitude.</p>`,
       game_engine: `<p>software framework for designing video games</p>`,
       geometry: `<p>Branch of mathematics concerned with questions of shape, size,
          relative position of figures, and the properties of space.</p>`,
@@ -777,7 +782,9 @@ export default {
         our action in the future. Teaching under this view becomes analogous to programming.</p>`,
       life: `<p>Life complex of properties or qualities, such as autonomous
        moving system, energy intake and transformation, and reproduction.</p>`,
-      linker: `<p>tbd</p>`,
+      linker: `<p>computer program that takes one or more object files generated
+        by compiler and combines them into a single executable file, software library
+        or another object file</p>`,
       linguistics: `<p>Scientific study of language. There are three aspects to this study:
         language form, language meaning, and language in context.</p>`,
       linked_list: `<p> A data structure consisting of a group of nodes which together
@@ -787,7 +794,13 @@ export default {
         insertion or removal of elements from any position in the sequence.</p><p>
         Different types of linked list exist and are used as basis of other data stuctures.</p>`,
       linux: `<p>a Unix-like and mostly POSIX-compliant computer operating system (OS)
-        assembled under the model of free and open-source software development and distribution</p>`,
+        assembled under the model of free and open-source software development and distribution</p>
+        <p>though often labeled as operating system it is only its part and that part is kernel,
+        other parts combining, it produces so called 'distro'. Various differently oriented distros
+        exist with linux kernel as key part of them.</p>`,
+      loader: `<p>part of an operating system that is responsible for loading programs and libraries.
+        It is one of the essential stages in the process of starting a program, as it places programs
+        into memory and prepares them for execution.</p>`,
       logic: `<p>Branch of philosophy concerned with the use and study of valid reasoning.</p><p>
         Logic, as usually is case with sciences, overflows to other areas of knowledge,
         most dominantly to mathematics and informatics.</p>`,
@@ -856,6 +869,10 @@ export default {
         Such information must be located and returned to the consciousness.</p>`,
       mental_model: `<p>An explanation of someone's thought process about how
         something works in the real world.</p>`,
+      microarchitecture: `<p>the way in which a given instruction set is implemented
+        in a particular processor.</p>
+        <p>An ISA can be implemented with different microarchitectures; implementations
+        may vary due to different goals of designer or due to shifts in technology.</p>`,
       microservices: `<p>tbd</p>`,
       mind: `<p>Collection of cognitive faculties that enables consciousness,
         perception, thinking, judgement, and memory, explicit in
@@ -865,7 +882,15 @@ export default {
       mocha_js: `<p>Test runner for node_js. Run from command-line checks for test
         folder within current folder and runs tests defined in the files found
         within that folder.</p><p>Integration with Karma module is possible.(as well as gulp)</p>`,
-      models_of_computation: `<p>nothing yet</p>`,
+      models_of_computation: `<p>abstract models in computability theory and computational complexity
+        theory that define set of operations and costs of that operations</p>
+        <ul>examples of these models
+          <li>finite state machine
+          <li>combinatory logic
+          <li>turing machine
+          <li>lambda calculus
+          <li>cellular automaton
+        </ul>`,
       models_of_evaluation: `<p>there are two models of computation -
         simple substitutional model where name associated to values are not changing as the
         computation progresses and second more complicated environmental model of computation
@@ -939,7 +964,7 @@ export default {
         <li>Data structure that contain data in the form of fields, often known
         as attributes; and code, in the form of procedures, often known as methods.</li>
         </ul></p>`,
-      object_code: `<p>Special form of machine code, executable, symbols and identifiers need to
+      object_code: `<p>Special form of machine code, executable, symbols and identifiers need to be
         linked though.</p>`,
       object_composition: `<p>A way to combine simple objects or data types into more complex ones.
         Compositions are a critical building block of many basic data structures, including the tagged union,
@@ -1115,6 +1140,9 @@ export default {
       reg_ex: `<p>finite state automaton for manipulation of text</p>`,
       relation: `<p>A function, as explained by set theory.</p><p>In Greek language it
         is expressed as '<em>lógos</em>' as in 'analogous'.</p>`,
+      relational_model: `<p>Organizes data into one or more tables (or "relations")
+        of columns and rows, with a unique key identifying each row. Rows are also
+        called records or tuples.</p><p>Constraints give a way to implement business rules.</p>`,
       relationship: `<p>Set of relations between two or more objects.</p>`,
       relay: `<p>An electrically operated switch, usually implemented as electromagnet.</p>
         <p>Solid state relays are also possible.</p><p>First used in long distance telegraph
@@ -1133,10 +1161,14 @@ export default {
         in sociology does not apply to rule (more of a ethics term)</p>`,
       RAM: `<p>Form of computer data storage. It allows for almost the same amount of time access, irrespective of
         the physical location of data inside memory.</p>`,
+      RDBMS: `<p>Model of database management system, based on relational model.</p>`,
       scalar: `<p>As in scale, scalability.</p><ol><li>In mathematics, number that can multiply vector in
         context of vector_space.</li><li>In physics, a quantity that is independent of specific classes
         of coordinate systems.</li><li>In computing, equal to variable, i.e. atomic quantity that can
         hold only one value at the time.</li></ol>`,
+      schema: `<p>Greek word meaning shape or more generally plan. Greatly overloaded term with relations to
+        CS e.g. XML Schema, database schema, Mathematics - axiom schema, philosophy, psychology, self-image,
+        neural representations of image possibly others.</p>`,
       science: `<p>Process of studying and summing up knowledge about world that surrounds us.</p>
         <p>This process and knowledge is subject to peer review and some strict conventions about
         conducting experiments that shape it.</p>`,
@@ -1215,7 +1247,8 @@ export default {
         i.e. semantical giving up wrong results.</p>`,
       software_development: `<p>The process of software creation - one way to do it is
         agile software development.</p><p>In order to aid programmers with this task
-        specialized tools were developed.</p>`,
+        specialized tools were developed.</p><p>It should be also mentioned here that
+        no tool is ever substitute for thorough understanding of the subject of software developement.</p>`,
       software_framework: `<p>A software framework is a universal, reusable software
         environment that provides particular functionality as part of a larger software
         platform to facilitate development of software applications, products and solutions.</p>`,
@@ -1312,7 +1345,7 @@ export default {
         moving images. It is a mass-medium, for entertainment, education, news and advertising.</p>`,
       television_program: `<p>Segment of content intended for broadcast on television,
         other then commercial, or technical content.</p>`,
-      testing: `<p>Part of design and implementation process, we test
+      testing: `<p>Follow design and implementation process, we test
         parts from which we construe as well as final product.</p><p>
         The product is then said to comply with quality measures and more importantly
         is functional in the way it was intended to.</p>`,
